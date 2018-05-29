@@ -15,8 +15,8 @@ void inputVector(vector<int>& items) {
 }
 
 int main() {
-	vector<int> vec1(7);
-	vector<int> vec2(10);
+	vector<int> vec1(5);
+	vector<int> vec2(5);
 
 	cout << "The vector contains:\n";
 	cout << "vec1: ";
