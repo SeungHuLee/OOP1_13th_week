@@ -34,4 +34,21 @@ int main() {
 	cout << "vec2: ";
 	printVector(vec2);
 
+	//vector object에 !=연산자 사용하기
+	if (vec1 != vec2) {
+		cout << "vec1 and vec2 are not equal" << endl;
+	}
+
+	vector<int>vec3{ vec1 };
+	//vector<int vec3 = vec1;
+	cout << "The vec3 contains:\n";
+	printVector(vec3);
+
+	//vector 대입
+	vec2 = vec1;
+	if (vec1 == vec2) {
+		cout << "vec1 and vec2 are equal" << endl;
+	}
+	//배열처럼 접근가능
+	cout << "vec1[3] is : " << vec1[3] << endl;
 }
